@@ -10,3 +10,17 @@
 @import "hamburger-menu";
 // 以下を追記します。
 @import "device";
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "setting/general";
+@import "hamburger-menu";
+@import "device";
+// 以下を追記
+@import "posts";
