@@ -2,17 +2,22 @@ ja:
   activerecord:
     models:
       user: 'ユーザー'
-      # postを追加
       post: '投稿'
+      topic: 'トピックス'
+      comment: 'コメント'
+      
     attributes:
       user:
         email: 'メールアドレス'
         password: 'パスワード'
         password_confirmation: 'パスワード確認用'
-      # postを追加
       post:
         title: 'タイトル'
         content: '内容'
         image: '画像'
+      topic:
+        title: 'タイトル'
+      comment:
+        content: 'コメント'
 
-# 既存コード
+    # 既存コード
